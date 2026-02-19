@@ -1,0 +1,100 @@
+/* CENTRALIZAÇÃO DE PÁGINAS ESPECÍFICAS */
+.centered {
+    padding-top: 120px;
+    text-align: center;
+}
+
+/* TEXTO DE DESTAQUE */
+.secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* HEADER */
+.header {
+    height: 120px;
+    z-index: 1000;
+}
+
+/* LOGO */
+.logo-saleszap {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.logo-saleszap:hover {
+    transform: scale(2.0);
+}
+
+/* ===================== */
+/* TASKS */
+/* ===================== */
+
+.task-card {
+    border-radius: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 100%;
+    min-height: 180px;
+}
+
+.task-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* CORPO DO CARD */
+.task-card .card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TÍTULO */
+.task-card .card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    word-break: break-word;
+}
+
+/* DESCRIÇÃO */
+.task-card .card-text {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-break: break-word;
+    white-space: pre-wrap;
+    color: #555;
+}
+
+/* DATA */
+.task-card small {
+    margin-top: 0.75rem;
+    color: #888;
+    font-size: 0.8rem;
+}
+
+/* GRID MAIS CONFORTÁVEL */
+.row > div {
+    margin-bottom: 1.5rem;
+}
+
+/* Button Roxo */
+.btn-purple {
+    background-color: #7b2cbf;
+    color: white;
+    border: none;
+}
+
+.btn-purple:hover {
+    background-color: #5a189a;
+    color: white;
+}
